@@ -1,0 +1,13 @@
+body {
+    li {
+        color: blue;
+    }
+
+    .redClass {
+        color: yellow;
+    }
+
+    #redId {
+        color: purple;
+    }
+}
