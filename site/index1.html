@@ -1,41 +1,84 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>web xau</title>
+	<title>Dessert shop</title>
+	<link rel="stylesheet" href="./style.css">
 	<style>
-		li{
-			color: blue;
-		}
-		.redClass{
-			color: red;
-		}
-		#redId{
-			color: purple;
-		}
-		
+		/* This style overrides style sheet*/
+		@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap'); 
+		<!--font-family: 'Sevillana', cursive;-->
+		@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+		<!--font-family: 'Titillium Web', sans-serif;-->
 	</style>
 </head>
+
+
 <body>
-	<h1>Web xau kinh nguoi</h1>
-	<div id="redId">Day la 1 chiec web cuc ky xau, muon biet ai lap ra no xin moi 
-		<span>
-			<a href="https://www.facebook.com/giang.chu2310/" target="_blank">click vao day</a>
-		</span>
+	<div class="topNavigation" id="topNav">
+		<div class="logo"></div>
+		<div class="options">
+			<div class="option">Dessert Menu</div>
+			<div class="option">Gifts</div>
+			<div class="option">Workshop</div>
+			<div class="option">About us</div>
+		</div>
+		<div class="navButtons">
+			<button class="button">Sign in</button>
+			<button class="button">Sign up</button>
+		</div>
 	</div>
-	<span>tag span sau div</span>
-	<div>
-		<img src="https://www.w3schools.com/tags/img_girl.jpg" width="168" height="168" alt="ava cua giang chu">
+	<div class="heading">WANNA EAT SOME DESSERTS?</div>
+	<div id="menu">
+		<div class="pannaCotta">
+			<p id="panPas">Passion Fruit PannaCotta
+				<span class="price">$3.5/cup</span>
+			</p>
+			<p id="panStr">Strawberry PannaCotta
+				<span class="price">$3.5/cup</span>
+			</p>
+			<p id="panBlue">Blueberry PannaCotta
+				<span class="price">$3.5/cup</span>
+			</p>
+			<p id="panCho">Chocolate PannaCotta
+				<span class="price">$3.5/cup</span>
+			</p>
+			<p id="panMat">Matcha PannaCotta
+				<span class="price">$3.5/cup</span>
+			</p>
+		</div>
+		<div class="tofu">
+			<p id="toCaramel">Ginger Caramel Tofu
+				<span class="price">$3.5/cup</span>
+			</p>
+			<p id="toWhip">Whipped Cream Tofu
+				<span class="price">$3.5/cup</span>
+			</p>
+
+		</div>
+		<div class="cake">
+			<p id="tira">Tiramisu
+				<span class="price">$7/box</span>
+			</p>
+			<p id="cookies">Cookies
+				<span class="price">$2.5/piece</span>
+			</p>
+
+		</div>
 	</div>
-	<div>
-	<ul class="redClass">Thong tin
-		<li>Ten: giang chuu</li>
-		<li>Tuoi: 25</li>
-		<li>Gioi tinh: nu</li>
-		<li>So thich: socola</li>
-	</ul> 	
+	<div class="contact">
+		Connect with us to order
+		<section class="contact">Text at: 202-303-2723</section>
+		<section class="contact">Connect via <a href="https://www.facebook.com/homefood.va/" target="_blank">Facebook<a>
+		</section>
 	</div>
-	
+
+
+
+
+
 </body>
+
 </html>
